@@ -1,0 +1,21 @@
+/*******************************************************************************
+ *                                                                             *
+ * Alert                                                                  *
+ *                                                                             *
+ ******************************************************************************/
+.myDialog > *.label.content{
+    -fx-font-size: 13px;
+}
+
+.myDialog .button{
+   -fx-background-color: rgba(25, 100, 174, 0.4);
+   -fx-font-size: 12px;
+   -fx-text-fill:black;
+   -fx-cursor:hand;
+ }
+
+.myDialog .button:hover{     
+  -fx-background-color:rgba(25, 100, 174, 0.6);
+  -fx-font-size: 12px;
+  -fx-text-fill:black;
+ }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="444.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AddAppDialogController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="252.0" layoutY="138.0" onAction="#handleButtonCancel" prefWidth="70.0" ripplerFill="#4059a9" style="-fx-background-color: #99b0f4;" text="CANCEL" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="125.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="135.0" layoutY="138.0" onAction="#handleButtonOk" prefWidth="70.0" ripplerFill="#4059a9" style="-fx-background-color: #99b0f4;" text="OK" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="125.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <Label layoutX="62.0" layoutY="40.0" text="APP">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="91.0" text="FREQUENCE">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="appField" layoutX="154.0" layoutY="36.0" prefHeight="26.0" prefWidth="237.0" promptText="Enter your APP">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </JFXTextField>
+      <JFXTextField fx:id="feqField" layoutX="154.0" layoutY="87.0" prefHeight="26.0" prefWidth="237.0" promptText="Enter your Frequence">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </JFXTextField>
+   </children>
+</AnchorPane>
