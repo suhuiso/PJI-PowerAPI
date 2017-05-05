@@ -1,3 +1,13 @@
-# PJI-PowerAPI
-Développement d'une GUI JavaFX pour un wattmètre logiciel
-SU Hui
+Projet Individuel 
+===
+
+Auteur
+-------
+
+*	SU Hui
+
+Description
+-----------
+
+Développement d'une GUI JavaFX pour un wattmètre logiciel 
+
